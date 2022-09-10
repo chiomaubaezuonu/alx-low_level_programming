@@ -9,13 +9,18 @@
  */
 int main(void)
 {
-	int no;
-
-	for (no = '0'; no <= '9'; no++)
+	int number;
+	for (number = '0'; number <= '9'; number++)
 	{
-		putchar(no);
+		putchar(number);
+		if (number != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
+}
 
 }

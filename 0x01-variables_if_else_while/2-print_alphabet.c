@@ -13,9 +13,9 @@ int main(void)
 
 	for  (a = 'a'; a <= '2'; a++)
 	{
-		putchar(a);
+		purchar(a);
 	}
-	putchar('\n');
+	purchar('\n');
 	return (0);
 
 }

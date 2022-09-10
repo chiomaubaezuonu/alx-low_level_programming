@@ -19,6 +19,6 @@ printf( "is zero\n" );
 else {
 printf( "is negative\n" );    
 }
-return 0;			       
+return n;			       
 }
 gcc 0-positive_or_negative.c -o 0-positive_or_negative.c

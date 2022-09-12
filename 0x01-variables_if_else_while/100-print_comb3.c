@@ -10,6 +10,7 @@ int main(void)
 {
 	int num, innerNum;
 	for (num = '0'; num < '9'; num++)
+
 	{
 		for (innerNum = num + 1; innerNum <= '9'; innerNum++)
 		{
@@ -29,3 +30,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+

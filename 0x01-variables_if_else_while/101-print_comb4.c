@@ -3,12 +3,13 @@
 #include <time.h>
 
 /**
- *  * main - Entry point
- *   * Return: Always 0 (Success)
- *    */
+ *main - Entry point
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int x, p, j;
+
 	for (x = '0'; x < '9'; x++)
 	{
 		for (p = x + 1; p <= '9'; p++)

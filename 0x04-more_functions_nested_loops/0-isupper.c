@@ -18,12 +18,12 @@ int main()
 
   	if(c >= 'A' && c <= 'Z')
 		{
-	            printf("'%c' 1", c);
+	            printf("%c '1'", c);
 	        }
 	else if(c >= 'a' && c <= 'z')
 
 	        {
-	 	    printf("'%c' 0", ch);
+	 	    printf("%c '0'", c);
 		}
 
 		return 0;

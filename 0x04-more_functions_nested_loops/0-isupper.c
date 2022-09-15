@@ -2,25 +2,23 @@
 #include <stdio.h>
 /**
  *
- *C program to check whether a character is uppercase or lowercase 
+ *C program to check whether a character is uppercase or lowercase
  *
  */
 
 
-int main(void)
+void main(void)
 {
+char c;
+if (c >= 'A' && c <= 'z')
+{
+printf("%c: %d\n", c, '1');
+}
+else if (c >= 'a' && c <= 'z')
+{
+printf("%c: %d\n", c, '0');
+}
 
-   	char c;
-
-	if(c >= 'A' && c <= 'Z')
-		{
-	            printf("%c: %d\n", c, '1');
-	        }
-	else if(c >= 'a' && c <= 'z')
-	        {
-	 	    printf("%c: %d\n", c, '0');
-		}
-
-		return (0);
+return (0);
 
 }

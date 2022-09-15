@@ -7,17 +7,15 @@
  */
 
 
-void main(void)
+int _isupper(int c)
 {
-char c;
-if (c >= 'A' && c <= 'z')
-{
-printf("%c: %d\n", c, '1');
-}
-else if (c >= 'a' && c <= 'z')
-{
-printf("%c: %d\n", c, '0');
-}
+	int upper;
+
+	for (upper = 'A'; upper <= 'Z'; upper++)
+	{
+		if (c == upper)
+			return (1);
+	}
 
 return (0);
 

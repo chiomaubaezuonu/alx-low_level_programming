@@ -14,11 +14,11 @@ int main(void)
 
 	if(c >= 'A' && c <= 'Z')
 		{
-	            printf("%c '1'", c);
+	            printf("%c: %d\n", c, '1');
 	        }
 	else if(c >= 'a' && c <= 'z')
 	        {
-	 	    printf("%c '0'", c);
+	 	    printf("%c: %d\n", c, '0');
 		}
 
 		return (0);

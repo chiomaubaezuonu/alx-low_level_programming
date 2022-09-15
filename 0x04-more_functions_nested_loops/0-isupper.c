@@ -9,25 +9,21 @@
 
 
 #include <stdio.h>
-
-
-
-int main()
+int main(void)
 
 {
 
    	char c;
 
-  	if(c >= 'A' && c <= 'Z')
+	if(c >= 'A' && c <= 'Z')
 		{
 	            printf("%c '1'", c);
 	        }
 	else if(c >= 'a' && c <= 'z')
-
 	        {
 	 	    printf("%c '0'", c);
 		}
 
-		return 0;
+		return (0);
 
 }

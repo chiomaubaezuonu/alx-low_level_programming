@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  *
- *C program to check whether a character is uppercase or lowercase
+ *Return int 
  *
  */
 

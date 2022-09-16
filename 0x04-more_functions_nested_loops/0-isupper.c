@@ -6,13 +6,13 @@
  */
 
 
-void _isupper(int c)
+int _isupper(int c)
 {	
-int upper;
+int UPPER;
 
-	for (upper = 'A'; upper <= 'Z'; upper++)
+	for (UPPER = 'A'; UPPER <= 'Z'; UPPER++)
 	{
-		if (c == upper)
+		if (c == UPPER)
 			return (1);
 	}
 

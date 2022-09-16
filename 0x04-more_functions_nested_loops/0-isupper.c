@@ -6,9 +6,9 @@
  */
 
 
-	int _isupper(int c)
+int _isupper(int c)
 {	
-	int upper;
+int upper;
 
 	for (upper = 'A'; upper <= 'Z'; upper++)
 	{

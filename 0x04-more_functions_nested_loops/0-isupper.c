@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  *
- *Return int 
- *
+ * Return: int
  */
 
 

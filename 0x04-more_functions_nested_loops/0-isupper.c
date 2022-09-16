@@ -6,7 +6,7 @@
  */
 
 
-int _isupper(int c)
+void _isupper(int c)
 {	
 int upper;
 

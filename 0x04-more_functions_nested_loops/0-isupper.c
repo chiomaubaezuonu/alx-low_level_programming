@@ -6,8 +6,8 @@
  */
 
 
-int _isupper(int c)
-{
+	int _isupper(int c)
+{	
 	int upper;
 
 	for (upper = 'A'; upper <= 'Z'; upper++)
@@ -16,6 +16,6 @@ int _isupper(int c)
 			return (1);
 	}
 
-return (0);
+	return (0);
 
 }

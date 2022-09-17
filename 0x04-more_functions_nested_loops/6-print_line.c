@@ -12,6 +12,8 @@ void print_line(int n)
 	int no;
 
 	for (no = 0; no <= n; no++)
-		_putchar('_');
+	{
+		_putchar('-');
+	}
 	_putchar(10);
 }

@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * more_numbers - more numbers
+ * more_numbers - print from 0 - 14 ten times
  *
- * Return: Always 0
+ * Return: void
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int no, cnt;
 	int a, b;
 
-	for(cnt = 0; cnt < 10; cnt++)
+	for (cnt = 0; cnt < 10; cnt++)
 	{
-		for(no = 0; no <= 14; no++)
+		for (no = 0; no <= 14; no++)
 		{
 			if (no > 9)
 			{
@@ -24,7 +24,7 @@ void print_most_numbers(void)
 			else
 				b = no;
 			_putchar(b + '0');
-		}	
+		}
 		_putchar(10);
 	}
 }
